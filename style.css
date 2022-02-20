@@ -1,0 +1,130 @@
+div {
+    border: 2px solid red;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero, footer {
+    background-color: #1f2937;
+   
+}
+.hero {
+   padding: 0 10%;
+    
+}
+
+header {
+    display: flex;    
+}
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.right-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 1em;
+}
+.hero-main{
+    display: flex;
+    padding: 80px 0;
+    gap: 50px;
+}
+.hero-main-section {
+    flex: 1;
+}
+.image-placeholder {
+    height: 200px;
+    width: 500px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+   
+}
+.image-text {
+   margin: auto;
+}
+.hero-text {
+    margin: 0;
+}
+.image-text, .hero-text, a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#hero-main-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button{
+    background-color: #3882f6;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+#image-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f3927;
+    text-align: center;
+}
+.image-section {
+    padding-bottom: 50px;
+}
+.images {
+    display: flex;
+    justify-content: center
+
+}
+img {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    flex: 1;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
+
+/* Making figcaption the same size as figure (caption-side default is top) */
+figure {
+     display: table; 
+
+    }
+figcaption {
+     display: table-caption;
+     caption-side: bottom; 
+    }
+/* ___________________________________________________________________________ */
+
+footer {
+    text-align: center;
+    color: #f9faf8;
+    padding: 1em 0;
+}
