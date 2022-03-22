@@ -1,6 +1,4 @@
-div {
-    border: 2px solid red;
-}
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -100,7 +98,8 @@ button{
 }
 .images {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 img {
@@ -151,8 +150,21 @@ section {
 }
 .sign-up {
     background-color: #3882f6;
+    display: flex;
+    width: 80%;
+    margin: 5em auto;
+    justify-content: space-around;
+    border-radius: 8px;
+    color: white;
+    
+    
+
 }
 
 #sign-up {
     border: 1px solid white;
+    align-self: flex-start;
+    margin-top: auto;
+    margin-bottom: auto;
+    
 }
